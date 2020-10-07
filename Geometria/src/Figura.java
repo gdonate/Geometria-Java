@@ -6,4 +6,7 @@ public abstract class Figura {
         return (int) (f.area()-this.area());
     }
 
+
+
+
 }

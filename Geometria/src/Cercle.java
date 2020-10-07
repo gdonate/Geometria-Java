@@ -7,7 +7,7 @@ public class Cercle  extends Figura{
     }
     @Override
     public double area(){
-        return Math.PI = Math.pow (this.r, 2);
+        return 3.14D + Math.pow(this.r, 2.0D);
 
     }
     public String toString() {
