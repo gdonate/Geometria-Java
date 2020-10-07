@@ -16,6 +16,13 @@ public class Rectangle extends Figura implements Runnable {
     public double area() {
         return this.l1 *this.l2;
     }
+
+    @Override
+    public double Perimetro() {
+        final double v = this.l1 + this.l1 + this.l2 + this.l2;
+        return v;
+    }
+
     public double getL1(){
         return l1;
     }
